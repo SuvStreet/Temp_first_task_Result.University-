@@ -1,8 +1,10 @@
 services:
   date:
+    image: suvstreet/date-service
     build: 
       dockerfile: date.dockerfile
   result:
+    image: suvstreet/result-service
     build: .
     ports:
       - "3000:3000"

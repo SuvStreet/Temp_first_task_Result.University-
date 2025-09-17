@@ -4,4 +4,4 @@ COPY . .
 
 RUN npm ci
 
-CMD [ "npm", "run", "dev_date" ]
+CMD [ "node", "date-service" ]
